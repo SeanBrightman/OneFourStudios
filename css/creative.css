@@ -149,8 +149,8 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
   text-align: center;
+  float: left;
   color: white;
 }
 header .header-content {
@@ -405,41 +405,74 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
-#work
-{
-  position: relative;
-  width: 100%;
-  height: 20em;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-image: url('../img/work.jpg');
-  color: #fff;
-}
-
-#cta
-{
-  position: relative;
-  width: 100%;
-  height: 20em;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-image: url('../img/cta.jpg');
-  color: #fff;
+#work {
+  /*for nav purposes*/
 }
 
 #galpanels
 {
   position: relative;
   width: 100%;
-  height: 20em;
+  background-color: #000;
   color: #fff;
 }
+
+.galleries
+{
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+.parallax-head { 
+    /* The image used */
+    background-image: url('../img/header.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Text color */
+    color: #fff;
+}
+
+.parallax-work { 
+    /* The image used */
+    background-image: url('../img/work.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Text color */
+    color: #fff;
+}
+
+.parallax-cta { 
+    /* The image used */
+    background-image: url('../img/cta.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 /*
