@@ -8,6 +8,8 @@ html,
 body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -430,7 +432,7 @@ body {
     background-image: url('../img/header.jpg');
 
     /* Full height */
-    height: 100%; 
+    width: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -447,7 +449,7 @@ body {
     background-image: url('../img/work.jpg');
 
     /* Full height */
-    height: 100%; 
+    width: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -464,13 +466,25 @@ body {
     background-image: url('../img/cta.jpg');
 
     /* Full height */
-    height: 100%; 
+    width: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.tab-pane {
+  width: 100%
+}
+
+.button {
+  color: #000;
+}
+
+form {
+  float: right;
 }
 
 
